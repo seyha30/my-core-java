@@ -8,6 +8,7 @@ public class CatOptionalDemo {
 	public static void main(String[] args) {
 		Optional<Cat> optional = findCatByName("jo");
 	   Cat cat =  optional.orElse(new Cat(0,"Unknown"));
+//	   s
 
 	}
 
